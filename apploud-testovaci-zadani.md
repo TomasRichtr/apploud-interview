@@ -16,10 +16,10 @@ Access token nebude předáván jako argument spouštěného příkazu, ale měl
 
 - výstup by měl být seznam uživatelů s detaily (viz další bod)
 - k uživatelům potřebujeme vědět
-    - občanské jméno (tzn. jméno a příjmení)
-    - uživatelské jméno
-    - seznam skupin jejichž je členem a s jakým oprávněním
-    - seznam projektů jejichž je členem a s jakým oprávněním
+  - občanské jméno (tzn. jméno a příjmení)
+  - uživatelské jméno
+  - seznam skupin jejichž je členem a s jakým oprávněním
+  - seznam projektů jejichž je členem a s jakým oprávněním
 - na konci výstupu by měl být celkový počet uživatelů
 
 ## Ukázkový výstup
@@ -53,7 +53,7 @@ Total Users: 5
 
 ## Škálovatelnost
 
-Testovací prostředí má 5 uživatelů, 5 skupin (včetně top-level) a 4 projekty. 
+Testovací prostředí má 5 uživatelů, 5 skupin (včetně top-level) a 4 projekty.
 Nástroj ale musí fungovat i na reálném prostředí, které má okolo 500 projektů,
 nižší desítky skupin a kolem 50 uživatelů.
 
@@ -64,6 +64,6 @@ Pro vývoj je k dispozici read-only testovací prostředí s těmito údaji:
 - ID top-level skupiny: `10975505`
 - Access token: `naRAbrD8qPXaXVASQ8Zy`
 
-Je potřeba využít Gitlab REST API, nikoli GraphQL. Jeho dokumentace 
-je zde: https://docs.gitlab.com/ee/api/ . Gitlab běží v cloudu na 
+Je potřeba využít Gitlab REST API, nikoli GraphQL. Jeho dokumentace
+je zde: https://docs.gitlab.com/ee/api/ . Gitlab běží v cloudu na
 adrese gitlab.com (tzn. není self-hosted)

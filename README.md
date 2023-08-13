@@ -35,12 +35,16 @@ npm preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 ## Change of access token
+
 by default the test access token (naRAbrD8qPXaXVASQ8Zy) is being used.
 Access token can be change by url query paramater:
+
 ```bash
 http://localhost:3000/?gitlabToken=someAnotherToken
 ```
-Another options is to use env var 
+
+Another options is to use env var
+
 ```angular2html
 GITLAB_TOKEN
 ```
