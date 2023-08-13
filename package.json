@@ -21,7 +21,6 @@
     "nuxt": "^3.6.5"
   },
   "dependencies": {
-    "@ant-design-vue/nuxt": "^1.1.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@pinia/nuxt": "^0.4.11",

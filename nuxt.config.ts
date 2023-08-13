@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@pinia/nuxt",
-    "@ant-design-vue/nuxt",
     "nuxt-lodash",
     "@nuxtjs/tailwindcss",
     "nuxt-icon",
