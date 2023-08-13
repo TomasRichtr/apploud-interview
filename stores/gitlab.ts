@@ -1,7 +1,5 @@
-import { fetchAllGitlabPages } from "~/utils/gitlabApi";
 import { DEFAULT_GROUP_ID, GITLAB_URLS } from "~/constants/gitlab";
 import { GitlabData, GitlabError } from "~/types/gitlabData";
-import { mergeMembers } from "~/utils/gitlab";
 
 const useGitlabStore = defineStore("gitlab", () => {
   const gitlab = reactive<GitlabData>({
